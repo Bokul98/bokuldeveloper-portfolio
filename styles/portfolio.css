@@ -8,23 +8,29 @@
 .text-primary {
   color: rgb(253, 110, 10);
 }
-.color-2{
-   color: rgb(71, 71, 71);
+.color-2 {
+  color: rgb(71, 71, 71);
 }
-.btn-primary{
-    border-radius: 5px;
-    background: rgb(253, 110, 10);
-    color: rgb(255, 255, 255);
-    font-family: Open Sans;
-    font-size: 20px;
-    font-weight: 700;
-    border: none;
-    padding: 18px 34px;
-    cursor: pointer;
+.btn-primary {
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  padding: 18px 34px;
+  cursor: pointer;
 }
 
+/* header bg */
+header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: left, right bottom;
+}
 
-/* Start Style  */
+/* Nav Bar Start Style  */
 
 nav {
   display: flex;
@@ -52,3 +58,50 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
 }
+
+/* Banner Style */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+.banner-container {
+  max-width: 580px;
+}
+.banner-img {
+  max-width: 580px;
+}
+
+.b-subtitle {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 61px;
+}
+.b-title {
+  color: rgb(24, 24, 24);
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 116px;
+}
+.banner-container .btn-2 {
+  color: rgb(253, 110, 10);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+  padding: 17px 33px;
+  background-color: white;
+  border: 1px solid rgb(253, 110, 10);
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.banner-container .btn-2:hover{
+  background-color: rgb(253, 110, 10);
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+/* about section */
+
