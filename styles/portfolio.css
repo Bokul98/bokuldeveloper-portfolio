@@ -183,3 +183,49 @@ main section {
   letter-spacing: 0%;
   text-align: left;
 }
+
+/* Resume Section */
+
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+.section-title {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.resume-column .resume-column-title {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+}
+.resume hr {
+}
+.resume-column .experience-title {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  margin: 30px 0 10px;
+
+}
+.resume-column .experience-sub-title {
+  color: #757575;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.resume-column .experience-description {
+  color: #757575;
+}
+.download-resume-cv{
+  text-align: center;
+  margin: 50px 0 100px;
+}
